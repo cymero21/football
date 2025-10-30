@@ -1,0 +1,112 @@
+.location nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: rgb(3, 41, 46);
+}
+
+section{
+    max-width: 900px;
+    margin: 120px auto 0 auto;
+    line-height: 1.6;
+}
+.location-header h1{
+    font-family: 'DM Serif Text', serif;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    color: rgb(3, 41, 46);
+}
+.location-header p{
+    font-family: 'merriweather', serif;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.campus-info h2{
+    font-family: 'DM Serif Text', serif;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    color: rgb(3, 41, 46);
+}
+.campus-info p{
+    font-family: 'merriweather', serif;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+.campus-info ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+.campus-info ul li{
+    font-family: 'merriweather', serif;
+    font-size: 1.0rem;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.map-section h2{
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: rgb(3, 41, 46);
+    font-family: 'dm serif text', serif;
+}
+.map-section p{
+    font-size: 1.0rem;
+    text-transform: capitalize;
+    font-weight: normal;
+    font-family: 'merriweather', serif;
+}
+.map-section iframe{
+    width: 100%;
+    height: 450px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.visit-info{
+    margin-bottom: 40px;
+}
+.visit-info h2{
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'dm serif text', serif;
+    color: rgb(3, 41, 46);
+    text-transform: capitalize;
+}
+.visit-info p{
+    font-size: 1.0rem;
+    text-transform: capitalize;
+    font-weight: normal;
+    font-family: 'merriweather', serif;
+    margin-bottom: 15px;
+}
+.visit-info ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+.visit-info ul li{
+    font-family: 'merriweather', serif;
+    font-size: 1.0rem;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.visit-info a{
+    color: rgb(3, 41, 46);
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: 'merriweather', serif;
+}
+.visit-info a:hover{
+    color: rgb(0, 123, 255);
+}
+@media (max-width: 600px){
+    section{
+        margin: 100px 20px 0 20px;
+    }
+}
