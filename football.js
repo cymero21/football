@@ -7,9 +7,9 @@ document.addEventListener('DOMContentLoaded', () => {
     if (heroWrapper && bg1 && bg2) {
         let current = 0;
         const imgSources = [
-            'images/three.jpg',
+            'images/three.webp',
             'images/one.jpg',
-            'images/five.jpg',
+            'images/five.webp',
         ];
 
         // preload images
